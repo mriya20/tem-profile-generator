@@ -37,16 +37,9 @@ A software engineering team-generator command line application. The application 
 
 ---
 
-## Visuals:
-
-![Screenshot of load page](/media/team-profile-generator-1.png)
-
----
-
-![Screenshot of load page](/media/team-profile-generator-2.png)
 
 ## Usage
-For a video of how to use the application please follow this link [this link](https://www.awesomescreenshot.com/video/13799199?key=a237c6fadcd45076474ddb26139bb6f4)
+For a video of how to use the application please follow this link [this link](https://www.awesomescreenshot.com/video/13977709?key=d5086a6b506c92d3fa9cae5fd6224d02)
 
 
 ## Installation
