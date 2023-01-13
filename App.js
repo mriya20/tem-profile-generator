@@ -5,8 +5,6 @@ const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
 
-const OUTPUT_DIR = path.resolve(__dirname, "output");
-const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./lib/htmlRenderer");
 
@@ -141,13 +139,8 @@ function internQuery() {
 }
 
 function createFile() {
-    if (!fs.existsSync(OUTPUT_DIR)) {
-        fs.mkdirSync(OUTPUT_DIR);
-    } else {
-
-        fs.writeFileSync(outputPath, render(teamMembers), "UTF-8");
-        console.log("File created in the output folder");
-    }
+    fs.writeFileSync("./output/team.html", render(teamMembers), "UTF-8");
+    console.log("File created in the output folder");
 
 }
 
